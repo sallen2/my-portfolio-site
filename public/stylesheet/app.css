@@ -157,4 +157,17 @@ section{
     #section3 h1{
     font-size: 60px
     }
+
+    #section2{
+    background-color: rgba(84, 87, 192, 0.84);
+    padding-top: 300px;
+    padding-bottom: 300px
+    }
+
+    #box {
+    background-color: rgba(48, 49, 59, 1);
+    background-size:cover;
+    display:table;
+    background-position: center center;
+    }
 }
