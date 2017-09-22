@@ -1,0 +1,21 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "my about me site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephan Allen",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "nodemon": "^1.12.0",
+    "typed.js": "^2.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
