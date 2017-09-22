@@ -7,16 +7,6 @@ html, body {
 	text-align: center;
 }
 
-.typed-cursor{
-    opacity: 1;
-    font-weight: 100;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
 h1{
 	font-size: 500%;
     text-align: center;
@@ -102,10 +92,8 @@ section{
 }
 
 #section4 a{
-    margin-top: 50px;
-    padding: 50px;
-    width: 550px;
-    background-color: rgba(76, 152, 214, 1); 
+    margin: 20px;
+    background-color: rgba(65, 149, 180, 1); 
 }
 
 #messagefield{
@@ -150,8 +138,23 @@ section{
     color: black;
 }
 
+@media screen and (max-width: 400px){
+    #section4 h3{
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    }
 
+    .section5{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 70px;
+    background-color: rgba(40, 90, 164, 1);
+    padding-top: 350px;
+    padding-bottom: 450px;
+    }
 
-
-
-
+    #section3 h1{
+    font-size: 60px
+    }
+}
