@@ -27,6 +27,6 @@ app.get("/portfolio/project3", (req, res)=>{
 res.render("colorGame");
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
 	console.log("server up");
 });
