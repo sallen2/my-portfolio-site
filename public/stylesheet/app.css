@@ -41,6 +41,11 @@ background-size: cover;
 
 }
 
+.githubCenter{
+    margin: 10px 47%;
+    color: rgb(84, 87, 192);
+}
+
 #section2{
     background-color: rgba(84, 87, 192, 0.84);
     padding-top: 175px;
