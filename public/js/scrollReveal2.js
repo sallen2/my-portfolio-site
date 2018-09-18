@@ -28,6 +28,13 @@ sr.reveal('#project4 h2', {
 	mobile: true
 });
 
+sr.reveal('#project5 h2', { 
+	duration: 1000,
+	origin: "top",
+	distance: "550px",
+	mobile: true
+});
+
 sr.reveal('.discription', { 
 	duration: 1000,
 	origin: "bottom",
