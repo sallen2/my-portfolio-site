@@ -1,3 +1,7 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
