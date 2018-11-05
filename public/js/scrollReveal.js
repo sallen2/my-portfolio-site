@@ -88,6 +88,22 @@ sr.reveal('.img6', {
 	mobile: true
 });
 
+sr.reveal('.img7', { 
+	duration: 2000,
+	origin: "bottom",
+	viewpoint: 0.2,
+	distance: "40px",
+	mobile: true
+});
+
+sr.reveal('.img8', { 
+	duration: 2000,
+	origin: "bottom",
+	viewpoint: 0.2,
+	distance: "40px",
+	mobile: true
+});
+
 sr.reveal('.container h1', { 
 	duration: 2000,
 	origin: "bottom",
